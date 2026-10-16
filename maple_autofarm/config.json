@@ -1,0 +1,52 @@
+{
+  "window_title": "冒险岛怀旧服",
+
+  "keys": {
+    "attack": "ctrl",
+    "jump": "alt",
+    "pickup": "z",
+    "hp_potion": "delete",
+    "mp_potion": "end",
+    "left": "left",
+    "right": "right"
+  },
+
+  "buffs": [
+    {"key": "shift",  "interval": 180, "cast_time": 1.0},
+    {"key": "insert", "interval": 200, "cast_time": 1.0}
+  ],
+
+  "potion": {
+    "hp_threshold": 0.50,
+    "mp_threshold": 0.30,
+    "cooldown": 0.8,
+    "dead_threshold": 0.02
+  },
+
+  "regions": {
+    "hp_bar":  {"x1": 467, "x2": 632, "y": 752},
+    "mp_bar":  {"x1": 635, "x2": 800, "y": 752},
+    "minimap": {"x1": 7, "y1": 69, "x2": 215, "y2": 150}
+  },
+
+  "patrol": {
+    "use_minimap": true,
+    "left_x": 60,
+    "right_x": 170,
+    "turn_seconds": 4.0,
+    "attacks_per_step": 3,
+    "attack_interval": 0.45,
+    "walk_seconds": 0.35,
+    "jump_attack": false,
+    "pickup_every": 2
+  },
+
+  "safety": {
+    "pause_when_player_nearby": true,
+    "player_nearby_seconds": 3.0,
+    "max_runtime_minutes": 240,
+    "stuck_seconds": 20
+  },
+
+  "debug": false
+}
